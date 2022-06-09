@@ -16,5 +16,3 @@ class MyList
     @list.each(&block)
   end
 end
-
-puts(MyList.new(1, 2, 3).show)

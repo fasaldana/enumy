@@ -21,5 +21,3 @@ module MyEnumerable
     result
   end
 end
-
-puts([1, 2, 3].my_any? { |item| item > 2 })
