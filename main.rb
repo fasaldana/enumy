@@ -10,4 +10,4 @@ class MyList
   end
 end
 
-puts (MyList.new(1, 2, 3).show)
+puts(MyList.new(1, 2, 3).show)
