@@ -1,4 +1,7 @@
+require my_enumerable
+
 class MyList
+  include MyEnumerable
   def initialize(*items)
     @list = items
   end
@@ -7,6 +10,10 @@ class MyList
     @list.each do |item|
       puts item
     end
+  end
+
+  def each(&block)
+    @list.each(&block)
   end
 end
 
